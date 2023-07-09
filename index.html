@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+    <script src="https://www.google.com/recaptcha/api.js?render={6LdT2fkkAAAAAGWDg53Om873by1nFCUe9Oq8oo7c
+    }"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('{your-site-key}', {action: 'submit'}).then(function (token) {
+                console.info("got token: " + token);
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+        });
+    </script>
+    <!-- GOOGLE ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,-25" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,-25" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500&family=Inter+Tight:wght@100;200;300&family=Spectral:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/b962fa32af.js" crossorigin="anonymous"></script>
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Proyecto Spencer | Art & Web developing</title>
+</head>
+<body id="body__index">
+    <div id="index"></div>
+
+    <header>
+        <!-- ---wave animation--- -->
+        <div class="flexible">
+            PROYECTO SPENCER PROYECTO SPENCER PROYECTO SPENCER
+        </div>
+        <div class="header__photo">
+            <img src="./assets/indexSegundo01.gif" alt="">
+            <img src="./assets/indexSegundo02.gif" alt="">
+        </div>
+    </header>
+
+    <!-- gif -->
+    <div id="header__gif"></div>
+
+    <!-- navbar -->
+    <div class="container-fluid fixed-top navbar__modificada">
+        <nav class="row">
+            <ul class="col-3">
+                <li><a class="navbar__modificada-brand" href="#index">Britany <br>Spencer</a></li>
+                <li><a class="nav-mine" href="#container__frontend">frontend</a></li>
+                <li><a class="nav-mine" href="#container__art">art projects</a></li>
+                <li><a class="nav-mine" href="#about">about</a></li>
+                <li><a class="nav-mine" href="#contact">contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section id="container__frontend">
+            <div class="cfront-one">
+                <h2>PROYECTOS</h2>
+                <div>
+                    <a href="https://www.gotas-de-vida-herbal.myshopify.com" target="_blank"><img class="move_img" src="./assets/gotas.webp" alt="proyecto que desarrollé: imagen que lleva al sitio web de gotas de vida herbal"></a>
+                </div>
+                <div>
+                    <a href="https://www.clselect.com.ar" target="_blank"><img class="move_img" src="./assets/clselect.png" alt="proyecto que desarrollé: imagen que lleva al sitio web de clselect.com.ar"></a>
+                </div>
+            </div>
+            <div class="cfront-two">
+                <h2>WEB</h2>
+                <div>
+                    <a href="https://www.lascelebraciones.com" target="_blank"><img class="move_img" src="./assets/lascelebraciones.png" alt="proyecto que desarrollé: imagen que lleva al sitio web de lascelebraciones.com"></a>
+                </div>
+                <div>
+                    <a href="https://www.limaydenim.com" target="_blank"><img class="move_img" src="./assets/limay.png" alt="proyecto que desarrollé: imagen que lleva al sitio web de limay.com"></a>
+                </div>
+            </div>
+            <div class="cfront-three">
+                <a href="https://www.lucilasafdie.com" target="_blank"><img class="move_img" src="./assets/lucila.webp" alt="proyecto que desarrollé: imagen que lleva al sitio web de lucilasafdie.com"></a>
+            </div>
+        </section>
+
+        <!-- art project -->
+
+        <section id="container__art">
+            <div id="ceramicas">
+                <h2>SOME</h2>
+                <div class="cArt-one">
+                    <div>
+                        <img class="move_img" src="./assets/arcillaRoja.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img class="move_img" src="./assets/ig03.png" alt="">
+                    </div>
+                    <div>
+                        <img class="move_img" src="./assets/frutera.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="cArt-two">
+                    <div>
+                        <video width="320"autoplay loop class="move_img">
+                            <source src="./assets/destroy.mp4" type="video/mp4">
+                            <source src="./assets/destroy.ogg" type="video/ogg">
+                            Tu navegador no te permite ver el video.
+                          </video>
+                    </div>
+                    <h2>WORKS</h2>
+                    <div>
+                        <video width="250" autoplay="autoplay" loop="loop" preload="metadata" class="move_img">
+                            <source src="./assets/jarron.mp4" type="video/mp4">
+                            <source src="./assets/jarron.ogg" type="video/ogg">
+                            Tu navegador no te permite ver el video.
+                        </video>
+                    </div>
+                </div>
+            </div>  
+            <!-- about -->
+            <div id="about" class="container-fluid container__index-about">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4 col-md-8">
+                        <img class="about__img" src="./assets/perfil.jpeg" alt="">
+                    </div>
+                    <p class="col-lg-3 col-md-4">Artista plástica de formación, Licenciada por la UNLP con orientación en Grabado y Arte Impreso.<br>Con algunos baches creativos...intento mantenerme cerca del arte del modo que pueda.
+                    </p>
+                    <p class="col-lg-3 col-md-4">En la actualidad trabajo en proyectos de manera freelance y me desempeño como docente de Desarrollo Web en Coderhouse.</p>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+    <!-- marquee -->
+    <section class="container__index-marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            let's
+        </marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="10">
+            work
+        </marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            together
+        </marquee>
+    </section>
+
+    <!-- formulario -->
+    <form action="enviar_email.php" method="post" class="container__index-form">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <input type="submit" value="Enviar" class="btn_propio">
+      </form>      
+
+    <!-- footer -->
+    <footer>
+        <div class="container__index-rrss">
+            <a href="https://www.linkedin.com/in/camilamunoz-frontend/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://vimeo.com/britanyspencer" target="_blank"><i class="fa-brands fa-vimeo-v"></i></a>
+            <a href="https://github.com/cmmanriquez" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- BS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- MY SCRIPT -->
+    <script src="./js/textwave.js"></script>
+</body>
+
+</html>
